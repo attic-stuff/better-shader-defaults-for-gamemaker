@@ -9,7 +9,7 @@ once you do find that folder there are two text files: ``fshader.txt`` and ``vsh
 
 these defaults include **vv_pos**, a varying that passes x y and depth from the vertex shader to the fragment shader. very useful for things for you probably.
 
-![showoff](C:\Users\cecil\Desktop\work\GM REPOs\better-shader-defaults-for-gamemaker\showoff.png)
+![showoff](https://github.com/attic-stuff/better-shader-defaults-for-gamemaker/blob/main/showoff.png)
 
 now when you right-click the asset browser to make a new shader friend, yours will look like the good side and not the bad side.
 
