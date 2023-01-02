@@ -1,0 +1,10 @@
+/* passthru fragment shader */
+
+varying vec2 vv_tex;
+varying vec4 vv_col;
+/* varying vec3 vv_pos; */
+
+void main() {
+	vec4 pixel = vv_col * texture2D(gm_BaseTexture, vv_tex);
+	gl_FragColor = pixel;
+}
